@@ -1,9 +1,12 @@
 package com.henriquericcio.contacts.model;
 
-import java.util.UUID;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
+@Entity
 public class Contact {
-    private UUID id;
+    @Id
+    private String id;
     private String firstName;
     private String phoneNumber;
     private String lastName;
@@ -11,18 +14,18 @@ public class Contact {
     public Contact(){
     }
 
-    public Contact(UUID id, String firstName, String lastName, String phoneNumber){
+    public Contact(String id , String firstName, String lastName, String phoneNumber){
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;
     }
 
-    public UUID getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(UUID id) {
+    public void setId(String id) {
         this.id = id;
     }
 
