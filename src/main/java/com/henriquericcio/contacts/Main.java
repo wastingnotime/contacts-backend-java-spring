@@ -1,4 +1,4 @@
-package com.henriquericcio;
+package com.henriquericcio.contacts;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

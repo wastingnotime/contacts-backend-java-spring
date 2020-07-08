@@ -1,5 +1,7 @@
-package com.henriquericcio;
+package com.henriquericcio.contacts.controller;
 
+import com.henriquericcio.contacts.model.Contact;
+import com.henriquericcio.contacts.infra.http.NotFoundException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

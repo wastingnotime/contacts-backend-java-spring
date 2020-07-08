@@ -1,4 +1,4 @@
-package com.henriquericcio;
+package com.henriquericcio.contacts.model;
 
 import java.util.UUID;
 
