@@ -6,7 +6,7 @@ RUN mvn dependency:go-offline -B
 COPY ./src ./src
 RUN mvn package
 
-FROM openjdk:14-slim
+FROM openjdk:14-alpine
 WORKDIR /app
 
 COPY --from=build-env ./target/app.jar app.jar
