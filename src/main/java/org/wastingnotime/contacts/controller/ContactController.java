@@ -1,8 +1,8 @@
-package com.henriquericcio.contacts.controller;
+package org.wastingnotime.contacts.controller;
 
-import com.henriquericcio.contacts.infra.http.NotFoundException;
-import com.henriquericcio.contacts.model.Contact;
-import com.henriquericcio.contacts.repository.ContactRepository;
+import org.wastingnotime.contacts.infra.http.NotFoundException;
+import org.wastingnotime.contacts.model.Contact;
+import org.wastingnotime.contacts.repository.ContactRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
