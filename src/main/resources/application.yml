@@ -1,2 +1,13 @@
 server:
   port: 8010
+spring:
+  datasource:
+    driverClassName: org.sqlite.JDBC
+    url: jdbc:sqlite:contacts.db
+    username: sa
+    password: sa
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+    database-platform: org.hibernate.community.dialect.SQLiteDialect

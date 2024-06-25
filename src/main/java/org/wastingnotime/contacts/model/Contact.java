@@ -1,7 +1,7 @@
 package org.wastingnotime.contacts.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
 @Entity
 public class Contact {
@@ -11,10 +11,10 @@ public class Contact {
     private String phoneNumber;
     private String lastName;
 
-    public Contact(){
+    public Contact() {
     }
 
-    public Contact(String id , String firstName, String lastName, String phoneNumber){
+    public Contact(String id, String firstName, String lastName, String phoneNumber) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
