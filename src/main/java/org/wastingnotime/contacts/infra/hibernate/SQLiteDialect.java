@@ -1,4 +1,4 @@
-package com.henriquericcio.contacts.infra.hibernate;
+package org.wastingnotime.contacts.infra.hibernate;
 
 import org.hibernate.dialect.Dialect;
 import org.hibernate.dialect.identity.IdentityColumnSupport;

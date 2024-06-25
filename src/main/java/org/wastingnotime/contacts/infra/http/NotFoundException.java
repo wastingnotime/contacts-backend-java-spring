@@ -1,4 +1,4 @@
-package com.henriquericcio.contacts.infra.http;
+package org.wastingnotime.contacts.infra.http;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

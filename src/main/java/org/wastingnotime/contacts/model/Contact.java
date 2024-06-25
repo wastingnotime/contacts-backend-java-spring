@@ -1,4 +1,4 @@
-package com.henriquericcio.contacts.model;
+package org.wastingnotime.contacts.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

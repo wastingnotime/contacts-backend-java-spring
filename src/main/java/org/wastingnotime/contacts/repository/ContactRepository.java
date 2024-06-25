@@ -1,6 +1,6 @@
-package com.henriquericcio.contacts.repository;
+package org.wastingnotime.contacts.repository;
 
-import com.henriquericcio.contacts.model.Contact;
+import org.wastingnotime.contacts.model.Contact;
 import org.springframework.data.repository.CrudRepository;
 
 public interface ContactRepository extends CrudRepository<Contact, String> {
