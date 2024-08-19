@@ -46,7 +46,7 @@ build and create package
 
 and then run the application
 ```
-java -jar target/contacts-backend-java-spring-0.0.1-SNAPSHOT.jar
+java -jar target/app.jar
 ```
 
 ## testing
